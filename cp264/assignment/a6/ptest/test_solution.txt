@@ -1,0 +1,21 @@
+q1 
+enqueue:10-((3*4)+8)/4
+display queue:10 - ( ( 3 * 4 ) + 8 ) / 4
+queue length:13
+dequeue:10 - ( ( 3 * 4 ) + 8 ) / 4
+queue-length:0
+q2 
+str:12 34 56 78 90 + - * /
+display stack:/ * + 90 78 56 34 12
+stack height:8
+pop:/ * + 90 78 56 34 12
+stack-height:0
+q3 
+infix expression:10-((3*4)+8)/4
+postfix expression:10 3 4 * 8 + 4 / -
+postfix evaluation:5
+infix evaluation:5
+infix expression:12 + 24*3
+postfix expression:12 24 3 * +
+postfix evaluation:84
+infix evaluation:84

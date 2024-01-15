@@ -1,0 +1,21 @@
+q1 
+ 
+q2 
+Symbolic expressions:
+a=10
+b=8
+d=2
+c=(a+b)*(a-b)
+b=d*c
+e=12
+f=e/d
+
+After symbolic expression evaluation:
+d=11734344
+e=11734344
+f=11734344
+a=11734344
+b=11734344
+c=11734344
+ 
+q3 

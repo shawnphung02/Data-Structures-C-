@@ -1,0 +1,24 @@
+q1 
+
+display_tree():
+|___:A
+    |___R:C
+        |___R:G
+        |___L:F
+    |___L:B
+        |___R:E
+        |___L:D
+get_props().count:7
+get_props().height:3
+display_preorder():A B D E C F G 
+display_postorder():D E B F G C A 
+display_inorder():D B E A F C G 
+display_bforder(root):A B C D E F G 
+iterative_bfs(F):F
+iterative_bfs(H):NULL
+iterative_dfs(F):F
+iterative_dfs(H):NULL
+clean get_props().count:0
+get_props().height:0
+q2 
+q3 

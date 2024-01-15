@@ -1,0 +1,11 @@
+del *.exe
+del *.h
+del queue_stack.c
+del tree.*
+del bst.*
+del myrecord_bst.*
+del readme.txt
+del test_result.txt
+del test_report.txt
+del record_report.txt
+del *.zip

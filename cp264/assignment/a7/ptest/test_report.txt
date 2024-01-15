@@ -1,0 +1,90 @@
+Comparing files test_result.txt and TEST_SOLUTION.TXT
+***** test_result.txt
+q2 
+q3 
+***** TEST_SOLUTION.TXT
+q2 
+
+D,1.0
+    |___R:F,3.0
+        |___R:G,7.0
+        |___L:E,6.0
+    |___L:B,2.0
+        |___R:C,5.0
+        |___L:A,4.0
+
+inorder:A B C D E F G 
+search(A):A,4.0
+
+search(H):NULL
+D,1.0
+    |___R:F,3.0
+        |___R:G,7.0
+            |___R:H,8.0
+        |___L:E,6.0
+    |___L:B,2.0
+        |___R:C,5.0
+        |___L:A,4.0
+
+inorder:A B C D E F G H 
+search(H):H,8.0
+D,1.0
+    |___R:G,7.0
+        |___R:H,8.0
+        |___L:E,6.0
+    |___L:B,2.0
+        |___R:C,5.0
+        |___L:A,4.0
+
+inorder:A B C D E G H q3 
+
+---test import_data---
+Ali,88.0
+Allison,67.7
+Bodnar,93.6
+Chabot,80.4
+Costa,45.1
+Dabu,74.4
+Eccles,77.8
+Giblett,59.1
+Hatch,66.5
+He,85.7
+Koreck,77.4
+Lamont,98.1
+Myrie,76.7
+Parr,92.5
+Pereira,80.3
+Peters,82.3
+Smith,60.1
+Suglio,85.7
+Sun,67.7
+Wang,98.1
+
+count:20
+mean:77.9
+stddev:13.5
+median:0.0
+
+
+---test process_data---
+count:20
+mean:77.9
+stddev:13.5
+median:79.1
+
+---test search---
+search(Wang):Wang,98
+
+---test add_data---
+search(Moore):Moore,92
+
+---test remove_data---
+search(Wang):NULL
+
+---test report_data---
+count:20
+mean:77.6
+stddev:13.1
+median:79.1
+*****
+
